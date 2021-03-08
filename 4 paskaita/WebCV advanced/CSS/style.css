@@ -1,0 +1,183 @@
+body {
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.page {
+  background-color: white;
+  width: 50%;
+  border: 1px solid gray;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-image: url("../images/green.png");
+  background-repeat: no-repeat;
+  z-index: 10;
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.container1 {
+  background-color: rgb(34, 33, 33);
+  z-index: 0;
+  width: 35%;
+  flex-direction: row;
+  /* margin: 0 auto; */
+  /* justify-content: space-between; */
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  text-align: center;
+  place-items: center;
+  padding: 15px;
+}
+
+/* .imBack{
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: -100; 
+    display: flex;
+    flex-direction: row;
+} */
+
+.header1 {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: green;
+  font-size: 15px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 5px;
+}
+
+.container2 {
+  width: 65%;
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  text-align: center;
+  place-items: center;
+  padding: 15px;
+}
+
+.algirdas {
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.kas {
+  margin-top: -10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.header2 {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 15px;
+
+  padding-bottom: 5px;
+}
+
+.myTable1 {
+  width: 100%;
+  border-bottom: 2px solid gray;
+}
+
+.cell0 {
+  width: 33%;
+  font-size: 11px;
+}
+
+.imageCV {
+  position: relative;
+  width: 100%;
+  z-index: -11;
+  /* border-radius: 50%; */
+  /* padding: 20px; */
+}
+
+.text1 {
+  text-align: justify;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+
+.uli {
+  list-style-type: square;
+}
+
+.myTable2 {
+  width: 100%;
+  padding-left: 13px;
+  font-size: 10px;
+}
+
+.row {
+  padding-bottom: 10px;
+}
+.cell1 {
+  width: 15%;
+  text-align: center;
+}
+
+.cell2 {
+  width: 10%;
+  text-align: center;
+}
+
+.cell3 {
+  width: 70%;
+  text-align: justify;
+}
+
+.myTable3 {
+  width: 100%;
+  text-align: left;
+  font-size: 10px;
+  /* border: 1px solid gray; */
+  padding-left: 13px;
+}
+
+.myTable3 td {
+  width: 33%;
+  text-align: left;
+}
+
+.uli {
+  text-align: left;
+}
+
+.li {
+  text-align: left;
+}
+
+.button:hover {
+  cursor: url("../images/pointer 32.png"), auto;
+  /* cursor: pointer; */
+  background-color: yellow;
+}
+
+.linija{
+    position: relative;
+    border-bottom: 2px lightgray solid;
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    opacity: 1.0;
+    z-index: 101;
+}
