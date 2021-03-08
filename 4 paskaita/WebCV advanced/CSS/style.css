@@ -6,6 +6,7 @@ body {
 .page {
   background-color: white;
   width: 50%;
+  min-width: 500px;
   border: 1px solid gray;
   position: relative;
   margin-left: auto;
@@ -17,6 +18,13 @@ body {
   background-size: 100%;
   display: flex;
   flex-direction: row;
+
+}
+
+@media only screen and (max-width: 600px){
+  .page{
+    flex-wrap: wrap;
+  } 
 }
 
 .container1 {
@@ -55,6 +63,36 @@ body {
   padding-bottom: 5px;
 }
 
+.cell01 {
+  width: 90px;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  text-align: left;
+}
+
+.cell02 {
+  width: 65%;
+  /* padding-left: 10px; */
+  text-align: left;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.horizontalLine {
+  /* text-align: left; */
+  border: 8px solid green;
+  width: 88%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: flex;
+}
+
+.horizontalLine::after {
+  border: 8px solid grey;
+  width: 25%;
+}
+
 .container2 {
   width: 65%;
   display: block;
@@ -66,10 +104,11 @@ body {
 }
 
 .algirdas {
+  width: 100%;
   padding-top: 30px;
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -77,7 +116,7 @@ body {
   margin-top: -10px;
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -116,10 +155,6 @@ body {
   font-size: 10px;
 }
 
-.uli {
-  list-style-type: square;
-}
-
 .myTable2 {
   width: 100%;
   padding-left: 13px;
@@ -146,23 +181,29 @@ body {
 
 .myTable3 {
   width: 100%;
-  text-align: left;
   font-size: 10px;
   /* border: 1px solid gray; */
   padding-left: 13px;
 }
 
 .myTable3 td {
-  width: 33%;
+  width: 35%;
   text-align: left;
+  /* border: 1px solid blue; */
 }
 
-.uli {
+.ul {
   text-align: left;
+  list-style-type: square;
+  /* border: 1px solid brown; */
+  margin: 0;
+  padding-inline-start: 10px;
 }
 
 .li {
   text-align: left;
+  list-style-type: square;
+  /* border: 1px solid red; */
 }
 
 .button:hover {
@@ -171,13 +212,19 @@ body {
   background-color: yellow;
 }
 
-.linija{
-    position: relative;
-    border-bottom: 2px lightgray solid;
-    width: 47%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -30px;
-    opacity: 1.0;
-    z-index: 101;
+.linija {
+  position: relative;
+  border-bottom: 2px lightgray solid;
+  width: 48%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+  opacity: 1;
+  z-index: 101;
+}
+
+.YouTube {
+  width: 100%;
+  height: 250px;
+  padding: 15px 0px;
 }
