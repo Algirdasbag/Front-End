@@ -1,0 +1,157 @@
+/* Reset and globals */
+* {
+  box-sizing: border-box;
+  background-color: rgb(195, 221, 218);
+}
+    
+
+body {
+  margin: 0;
+  /* custom google font */
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+
+p {
+  color: #777;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  flex-wrap: wrap;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+/* common */
+
+.btn-blue {
+  /* color: blue; */
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(72, 72, 190),
+    rgb(70, 130, 241)
+  );
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+section {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* Header */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.brand span {
+  font-weight: normal;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+.hero_img {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Hero area */
+
+.hero {
+  align-items: center;
+  /* flex-direction: row-reverse; */
+}
+
+.hero__subheading {
+  letter-spacing: 5px;
+}
+
+.hero__title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.hero__text {
+  color: blue;
+  font-size: 20px;
+}
+/* Services */
+
+.services {
+  text-align: center;
+}
+
+.service__title {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.service__text {
+  font-weight: 00;
+  font-size: 20px;
+  text-align: justify;
+  color: blue;
+}
+
+.list {
+  text-align: left;
+  color: blue;
+}
+
+.service__main-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.service__under-title {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 4%;
+  color: blue;
+  font-size: 20px;
+}
+
+.services-container {
+  justify-content: space-between;
+}
+
+
