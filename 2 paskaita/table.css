@@ -1,0 +1,50 @@
+#main{
+  color: teal;
+}
+
+h1 {
+  text-align: center;
+}
+
+.myTable{
+    border: 2px solid black;
+    width: 425px;
+    /* text-align: left; */
+    border-collapse: collapse;
+
+  }
+
+  .myTable tr td, .myTable tr th{
+    border: 1px dotted black;
+    /* width: 400px;
+    text-align: center;
+    border-collapse: collapse; */
+  }
+
+  .myTable tr th{
+    text-align: center;
+  }
+
+  /* .myTable tr td{
+    border: 1px dotted black;
+  } */
+
+  p{
+    color: silver;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .highlight{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .centerText{
+    text-align: center;
+  }
+
+  .dottedRow td{
+    border-width: 1px;
+    border-top: dotted;
+    background-color: gray;
+  }
