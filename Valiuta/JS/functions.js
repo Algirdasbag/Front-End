@@ -40,17 +40,15 @@ function updateValue() {
 function updateNr1() {
   nr1.value = Math.round((nr2.value / getRatio()) * 100) / 100;
   updateValue();
-  // updateChart();
 }
 
 function updateNr2() {
   nr2.value = Math.round(nr1.value * getRatio() * 100) / 100;
   updateValue();
-  // updateChart();
 }
 
-val1.addEventListener("change",  updateChart0);
-val2.addEventListener("change", updateChart0);
+val1.addEventListener("change", updateChart2);
+val2.addEventListener("change", updateChart1);
 
 function getRatio() {
   let v1 = document.getElementById("pirmojiValiuta").value;
@@ -60,9 +58,13 @@ function getRatio() {
   return ratio2 / ratio1;
 }
 
-function updateChart0(){
-  updateNr1(); 
+function updateChart1(){
   updateNr2();
+  updateChart();
+}
+
+function updateChart2(){
+  updateNr1();
   updateChart();
 }
 
