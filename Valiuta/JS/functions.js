@@ -61,8 +61,8 @@ function getRatio() {
 }
 
 function updateChart0(){
-  updateNr1; 
-  updateNr2;
+  updateNr1(); 
+  updateNr2();
   updateChart();
 }
 
