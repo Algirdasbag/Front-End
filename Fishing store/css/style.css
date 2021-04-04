@@ -1,0 +1,419 @@
+body{
+    background-image: url("../img/water1a.jpg");
+}
+
+header{
+border-radius: 5px;
+margin: 10px auto;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding: 0;
+    border-radius: 5px;
+}
+
+section{
+margin-bottom: 10px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;   
+    align-items: space-between;
+    text-align: center;
+}
+
+nav a.navbar-brand > img{
+    height:60px;
+}
+
+.navbar-nav > li > a::after {
+    padding: 0px 0px 0px 10px;
+    color:rgb(128, 126, 126);
+}
+
+.navbar-nav > li {
+    font-size: 30px;
+}
+
+.nav-link{
+    padding: 0;
+}
+
+#autosearch {
+    position: relative;
+  }
+  
+  #autosearch #searchResults {
+    position: absolute;
+    top: 38px;
+    background: #fff;
+    font-size: 12px;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #autosearch #searchResults .found-prod {
+    padding: 5px 15px;
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #ddd;
+    border-top: 0px;
+    text-align: left;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#miniCart {
+    position: relative;
+    width: 35px;
+  }
+  
+#miniCart .counter {
+    color: white;
+    background: red;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    font-family: verdana;
+    position: absolute;
+    top: -3px;
+    right: -4px;
+  }
+
+.td1{
+    text-align: left;
+    color: #797979;
+    font-size: 14px;
+    padding: 0;
+}
+
+.td2{
+    color: #797979;
+    font-size: 12px;
+    text-align: left;
+    width: 35px;
+    border-right: #797979 1px solid;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+.td3{
+    color: #797979;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 4px;
+}
+
+.filtrai-kaire{
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.form-check{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.card-header{
+    background-color:antiquewhite;
+}
+
+.card{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 9px 9px 15px 0px #797979;
+}
+
+.input-group{
+    margin-top: -15px;
+    width: 50%;
+    margin-left: 16%;
+    height: 30px;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category{
+    margin-bottom: 0;
+}
+
+.breadcrumb{
+    margin: 0;
+    padding: 8px 16px;
+}
+
+footer{
+    min-height: 50px;;
+    font-size: 34px;
+}
+
+.container-prekes{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;   
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-content: space-between;
+}
+
+.kaire{
+    margin-right: 10px;
+    width: 25%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#kaire .ico{
+    font-size: 86px;
+}
+/* 
+.filtrai-pavadinimas{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+} */
+
+#kaire h3{
+    font-family: 'Audiowide', cursive;
+    font-weight: 500;
+    font-size:  30px;
+}
+
+#kaire h4{
+    font-family: 'Audiowide', cursive;
+    font-weight: 400;
+    font-size:  25px;
+}
+
+.md-form{
+    margin: 5px;
+}
+
+#reset-filters{
+    color: red;
+}
+
+.desine-outer{
+    /* background-color:antiquewhite; */
+    width: 75%;
+    border-radius: 5px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.items-found{
+    text-align: center;
+    border: 1px solid #797979;
+    padding: 0 5px;
+    margin-left: 5px;
+}
+
+.cell1, .cell2, .cell3 {
+    /* border: 1px solid lightgray; */
+    padding-left: 5px;
+}
+
+.view{
+    height: 20px;
+}
+.hr-holder{
+    width: 100%;
+    padding: 5px 5px 0 5px;
+}
+
+hr{
+    border: 1px solid lightgray;
+    width: 100%;
+    margin: 0 0 -10px 0;
+}
+
+.results{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+}
+
+.results-inner{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.desine-inner{
+    padding: 0px 5px;
+    /* background-color:antiquewhite; */
+    /* width: 75%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-header{
+    background-color:antiquewhite;
+    /* margin-bottom: 10px; */
+}
+
+#slider{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cardGrid{
+    width: 32%;
+    text-align: center;
+    font-size: 18px;
+    background-color:antiquewhite;
+    border-radius: 8px;
+    box-shadow: 9px 9px 15px 0px #797979;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.card-text{
+    font-size: 14px;
+}
+
+.cardGrid:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    z-index: 1;
+    vertical-align: center;
+    align-content: center;
+    text-align: center;
+   
+  }
+
+.cardList{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background-color:antiquewhite;
+    border-radius: 8px;
+    box-shadow: 9px 9px 15px 0px #797979;
+    margin-bottom: 10px;
+    display: flex;
+    /* height: 300px; */
+}
+
+.image-item{
+    /* width: 150px; */
+    height: 111px;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-body p{
+    /* text-align: left; */
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+
+#contactForm h3{
+    color:rgb(121, 108, 108);
+}
+
+#contactForm{
+    width: 50%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form{
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.btn a{
+    color: #fff;
+}
+
+.btn-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+#button-addon2{
+    border-radius: 5px;
+}
+
+#googleMaps{
+    height: 372px;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.map{
+    width: 90%;
+    height:320px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.text-center{
+    color: black;
+    font-size: 22px;
+}
+
+footer{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .card1{
+        width: 49%;
+        /* background-color: #797979; */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card1{
+        width: 99%;
+        /* background-color: aquamarine; */
+    }
+    #collapseOne{
+        display: none;
+    }
+}
